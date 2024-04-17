@@ -4,7 +4,7 @@
 
 #Invoke-SeedofPantsForensics -ComputerName 10.0.5.15 -HostName "SupremeHampsterWin10ABCDEFG" -Cred $cred
 
-####advisory: once initial tool installations are completed, you may not want to rerun the choco / vol / python installations
+####advisory: once initial tool installations are completed, you may not want to rerun the choco / vol / python installations; just use the second function (e.g. Invoke-WinpmemDump -ComputerName 10.0.5.15 -HostName "SupremeHampsterWin10ABCDEFG" -Cred $cred) for ez pz raw memory captures on remote hosts, with a little directory organization + volatility plugin usage
 
 <#
 #troubleshooting winrm
@@ -16,6 +16,3 @@ Set-NetConnectionProfile -InterfaceIndex $i -NetworkCategory Private
 }
 
 #>
-
-
-#once the first function runs, use the second one for ez pz raw memory captures on remote hosts, with a little directory organization + volatility plugin usage
