@@ -1,6 +1,7 @@
 ####usage: use on fresh installed windows box on enterprise network w/ provided credentials 
 
 #$cred = get-credential
+
 #Invoke-SeedofPantsForensics -ComputerName 10.0.5.15 -HostName "SupremeHampsterWin10ABCDEFG" -Cred $cred
 
 ####advisory: once initial tool installations are completed, you may not want to rerun the choco / vol / python installations
